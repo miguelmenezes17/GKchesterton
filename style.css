@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Slabo+27px & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Texturina:opsz,wght@12..72,100 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Crimson+Text & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Courgette&family=Junge&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor-body: #c5c0c0ad;
+    --cor-main: #ceb7aa;
+    --cor-um: #BF8B78;
+    --cor-dois: #734a40a1;
+    --cor-tres: #0D0D0D;
+    --cor-quatro: #a0522d;
+    --cor-foto: #948580;
+}
+
+    body {
+        background-image: url(imagens/chesterton08.jpeg);
+        background-position: top center;
+        background-repeat: repeat;
+        background-attachment: fixed;
+    }
+
+    header {
+        background-color: var(--cor-dois);
+        max-width: 800px;
+        min-width: 300px;
+        margin: auto;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding: 30px;
+    }
+
+    header h1 {
+        text-align: center;
+        color: white;
+        text-decoration: 4px solid underline rgba(58, 17, 5, 0.644);
+    }
+
+    header p {
+        text-align: center;
+        font-size: 1.3em;
+        color: wheat;
+        margin-top: 14px;
+        text-decoration: 2px solid underline rgb(37, 23, 5);
+    }
+
+    nav {
+        margin: 25px;
+        padding: 12px;
+        text-align: center;
+        background-color: var(--cor-tres);
+        border-radius: 8px;
+    }
+
+    nav a {
+        margin: 12px 0px 25px 0px;
+        padding: 4px;
+        border-radius: 6px;
+        background-color: var(--cor-um);
+        color: white;
+        transition-duration: 0.6s;
+
+    }
+
+    a:hover {
+        background-color: sienna;
+        color: black;
+    }
+
+    main {
+        background-color: var(--cor-main);
+        max-width: 700px;
+        min-width: 300px;
+        margin: auto;
+        padding: 15px;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+    main h2 {
+        font-family: 'Texturina', serif;
+        text-align: end;
+        margin: 8px 0px 18px 0px;
+        padding: 6px 4px 4px 1px;
+        background-image: linear-gradient(to left, var(--cor-dois), transparent);
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.171);
+        border-radius: 5px;
+    }
+
+    main p {
+        font-family: 'Crimson Text', serif;
+        line-height: 1.8em;
+        padding: 5px;
+        margin: 8px;
+        text-indent: 12px;
+        font-size: 18px;
+
+    }
+
+    .p1 {
+        color: rgb(23, 33, 75);
+        font-weight: bolder;
+    }
+
+    hr {
+        background-color: rgba(0, 0, 0, 0.685);
+        margin: 20px;
+        height: 4px;
+        border-radius: 8px;
+    }
+
+    div.chesterton00 {
+        position: relative;
+        background-image: linear-gradient(to left, var(--cor-body), var(--cor-um));
+        margin: 2px -15px 20px -15px;
+        padding: 15px;
+        padding-bottom: 57%;
+    }
+
+    div.chesterton00 iframe {
+        top: 18px;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+        position: absolute;
+
+    }
+
+    div.chesterton01 {
+        position: relative;
+        background-image: linear-gradient(to left, var(--cor-body), var(--cor-um));
+        margin: 2px -15px 20px -15px;
+        padding: 15px;
+        padding-bottom: 57%;
+    }
+
+    div.chesterton01 iframe {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+
+    div.chesterton02 {
+        position: relative;
+        background-image: linear-gradient(to left, var(--cor-body), var(--cor-um));
+        margin: 2px -15px 20px -15px;
+        padding: 15px;
+        padding-bottom: 57%;
+    }
+
+    div.chesterton02 iframe {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+
+    main img {
+        width: 78%;
+        margin-bottom: -6px;
+    }
+
+    main div.fotogilbert {
+        text-align: center;
+        border: 2px solid rgba(0, 0, 0, 0.11);
+        background-color: var(--cor-foto);
+        box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.527);
+    }
+
+    footer {
+        background-image: linear-gradient(to bottom, var(--cor-quatro), var(--cor-dois));
+        padding: 20px;
+
+    }
+
+footer p {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.466);
+        }
