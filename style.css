@@ -55,21 +55,27 @@
     }
 
     nav {
-        margin: 25px;
-        padding: 12px;
-        text-align: center;
-        background-color: var(--cor-tres);
+        margin: 25px 12px 12px 25px;
+        padding: 12px 35px 30px 35px;
+        text-align: left;
+        background-image: linear-gradient(to right, #53332A, #4c2c035e);
         border-radius: 8px;
     }
 
-    nav a {
-        margin: 12px 0px 25px 0px;
-        padding: 4px;
+    body > header > nav > a {
+        margin: 35px 25px 0px 0px;
+        padding: 6px;
         border-radius: 6px;
         background-color: var(--cor-um);
         color: white;
         transition-duration: 0.6s;
+        line-height: 45px;
 
+    }
+
+
+    nav br {
+        margin: 12px;        
     }
 
     a:hover {
