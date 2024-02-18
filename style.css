@@ -24,7 +24,9 @@
 }
 
     body {
-        background-image: url(imagens/chesterton08.jpeg);
+        background-image: url(imagens/chesterton08-1.jpeg);
+        background-size: 100%;
+
         background-position: top center;
         background-repeat: repeat;
         background-attachment: fixed;
