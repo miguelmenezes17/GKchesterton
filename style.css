@@ -17,28 +17,24 @@
     --cor-body: #c5c0c0ad;
     --cor-main: #ceb7aa;
     --cor-um: #BF8B78;
-    --cor-dois: #734a40a1;
+    --cor-dois: #734a4048;
     --cor-tres: #0D0D0D;
     --cor-quatro: #a0522d;
-    --cor-foto: #948580;
+    --cor-foto: #b492876e;
 }
 
     body {
-        background-image: url(imagens/chesterton08-1.jpeg);
-        background-size: 100%;
-
-        background-position: top center;
-        background-repeat: repeat;
+        background-image: url(imagens/chesterton01mod.jpeg);
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: cover;
         background-attachment: fixed;
     }
 
     header {
-        background-color: var(--cor-dois);
-        max-width: 800px;
+        max-width: 950px;
         min-width: 300px;
         margin: auto;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
         padding: 30px;
     }
 
@@ -183,9 +179,9 @@
 
     main div.fotogilbert {
         text-align: center;
-        border: 2px solid rgba(0, 0, 0, 0.11);
+        border: 2px solid rgba(0, 0, 0, 0.075);
         background-color: var(--cor-foto);
-        box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.527);
+        box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.192);
     }
 
     footer {
