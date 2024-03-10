@@ -86,8 +86,9 @@
 
     main {
         background-color: var(--cor-main);
-        max-width: 700px;
-        min-width: 300px;
+        min-width: 100px;
+        max-width: 580px;
+
         margin: auto;
         padding: 15px;
         border-bottom-left-radius: 12px;
