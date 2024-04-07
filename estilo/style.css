@@ -24,7 +24,7 @@
     }
 
     body {
-        background-image: url(imagens/chesterton01mod.jpeg);
+        background-image: url(../imagens/chesterton01mod.jpeg);
         background-position: left center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -206,7 +206,7 @@
         padding: 20px;
 
     }
-
+s
 footer p {
         color: white;
         text-align: center;

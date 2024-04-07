@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Slabo+27px & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Texturina:opsz,wght@12..72,100 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Crimson+Text & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Courgette&family=Junge&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor-body: #c5c0c0ad;
+    --cor-main: #ceb7aa;
+    --cor-um: #BF8B78;
+    --cor-dois: #734a4048;
+    --cor-tres: #0D0D0D;
+    --cor-quatro: #7c270060;
+    --cor-foto: #b492876e;
+
+    --fonte-1: 'Texturina', serif;
+    --fonte-2: 'Crimson Text', serif;
+    --fonte-3: ;
+    --fonte-4: ;
+
+}
+
+body {
+    background-image: url(../imagens/chestertonmod101.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-size: 100vw;
+}
+
+header {
+    background-color: var(--cor-quatro);
+    margin: auto;
+    margin-bottom: 18px;
+    color: rgba(255, 255, 255, 0.651);
+    
+    max-width: 590px;
+    
+    border-radius: 12px;
+    padding: 15px;
+
+    box-shadow: 3px 1px 2px rgba(0, 0, 0, 0.63);
+    
+}
+
+h1 {
+    text-align: right;
+    color: rgb(218, 211, 211);
+    max-width: 685px;
+    padding: 14px;
+    text-shadow: 3px 1px 2px #ffffff48;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1:hover {
+    color: white;
+    text-shadow: 3px 1px 2px #ffffff8e;
+}
+
+main {
+    background-color: var(--cor-main);
+    min-width: 100px;
+    max-width: 520px;
+
+    margin: auto;
+    border-radius: 10px;
+    padding: 12px;
+
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.438);
+}
+
+p {
+    font-family: var(--fonte-1);
+    text-align: justify;
+    text-indent: 12px;
+    line-height: 30px;
+    font-size: 1.1em;
+}
